@@ -10,13 +10,13 @@ window.configure(bg="black")
 image_rock1 = ImageTk.PhotoImage(Image.open("rock-user.jpg"))
 image_paper1 = ImageTk.PhotoImage(Image.open("paper-user.jpg"))
 image_scissor1 = ImageTk.PhotoImage(Image.open("scissor-user.jpg"))
-image_rock2 = ImageTk.PhotoImage(Image.open("rock.jpg"))
-image_paper2 = ImageTk.PhotoImage(Image.open("paper.jpg"))
-image_scissor2 = ImageTk.PhotoImage(Image.open("scissor.jpg"))
+image_rock2 = ImageTk.PhotoImage(Image.open("rock-comp.jpg"))
+image_paper2 = ImageTk.PhotoImage(Image.open("paper-comp.jpg"))
+image_scissor2 = ImageTk.PhotoImage(Image.open("scissor-comp.jpg"))
 
 #insert pictures
-label_computer = Label(window,image=image_scissor1,bg="black")
-label_player = Label(window,image=image_scissor2,bg="black")
+label_computer = Label(window,image=image_scissor2,bg="black")
+label_player = Label(window,image=image_scissor1,bg="black")
 label_computer.grid(row=1 , column=0)
 label_player.grid(row=1 , column=4)
 
